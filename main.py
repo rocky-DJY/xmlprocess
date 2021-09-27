@@ -14,7 +14,7 @@ def xml():
         # if node.getAttribute("uid"):  ## geologyInterval  uid
         #     print('UID: ', node.getAttribute("uid"))
         sonNodes = node.childNodes    ##  geologyInterval 子节点
-        list = []
+        list = [] ####
         for sonNode in sonNodes:
             if sonNode == None:
                 continue
